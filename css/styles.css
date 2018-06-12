@@ -1,0 +1,645 @@
+.wrapper{
+	width: 90%;
+	height:auto;
+	margin: 0em auto;
+}
+.images {
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+body{
+	  background:black;
+	  height: 2500px;
+	  color: white;
+}
+
+p{
+	font-size: 20px;
+}
+
+.art{
+	margin-top: 0px;
+	margin-left: 100px;
+}
+
+
+img{
+	width: 100%;
+	background-size: cover;
+	height: 300px;
+}
+
+.parallax{
+	background-image: url(../images/mycover.jpg);
+	height: 600px;
+	background-size: cover;
+	background-repeat:no-repeat;
+	width: 100%;
+
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+}
+.container {
+    position: relative;
+    text-align: left;
+    color: silver;
+}
+
+
+h1{
+	color: white;
+	padding: 16px 18px;
+	font-size: 50px;
+	text-align: left;
+	font-family: 'Spectral SC', serif;
+	text-decoration: none;
+	
+
+}
+
+nav{
+	
+	background:black;
+	height: 70px;
+	margin-top:0;
+	opacity:0.7;
+	width:100%;
+	color:white;
+
+}
+
+.bar1 {
+   list-style-type: none;
+   padding:0;
+   margin:0;
+   position: absolute;
+     
+}
+
+.bar1 li{
+   float:left ;
+   margin-top:30px;
+}
+
+.bar1 li:hover {
+	background-color: #6600cc;
+	transition: 0.6s;
+	display: inline-block;
+}
+.bar1 a{
+	width:25%;
+	text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Spectral SC', serif;
+    display:block;
+    font-weight: bold;
+}
+
+
+li a{
+	text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+
+.para{
+	height:300px;
+	text-align: left;
+}
+
+
+section {
+	height: auto;
+	position: relative;
+	color: white;
+
+}
+ h3{
+ 	font size: 70px;
+ }
+
+.parallax-2{
+	background-image: url(../images/colors.jpg);
+	height: 400px;
+	width:100%;
+	padding-top:0;
+	margin-top: 0;
+	background-size: cover;
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+.gallery p{
+		font-size: 2em;
+	}
+
+.parallax-3{
+	background-image: url(../images/about.jpg);
+	height: 600px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.aboutpage{
+	width:100%
+	height: 800px;
+}
+
+.about-content p{
+	margin-bottom: 100px;
+}
+
+/*contact page code*/
+
+.parallax-4{
+	background-image: url(../images/contact.jpg);
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.contact{
+
+}
+.mail a{
+	color: white;
+
+}
+
+
+footer{
+	width:50%;
+	overflow: hidden;
+	position: fixed;
+	margin-bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 38px;
+	bottom: 0px;
+	background-color: black;
+	color: white;
+	font-size: 25px
+	top:0px;
+
+}
+/*social media icons code*/
+
+.fa{
+	padding:20px;
+	font-size: 30px;
+	width:50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  }
+
+/*start of media queries*/
+@media only screen and (min-width: 30em){
+	.wrapper{
+		width:30em;
+	}
+
+	/*.images{
+		width:100%;
+		height: auto;
+	}*/
+
+	h1{
+		font-size: 2em;
+		padding-left: 0em;
+		text-align: left;
+		margin-left:0px;
+	}
+
+	p{
+		font-size: 1.2em;
+	}
+
+	.centered{   /*text on image - home page cover*/
+	color: white ;
+	font-size: 1em;
+	text-align: left;
+	}
+
+	.para{
+		font-size: 1.5em;
+		text-align: left;
+	}
+
+	h2{
+		font-size: 2em;
+
+	}
+	.parallax{
+		width: 100%;
+		margin-top: 100px;
+
+	}
+
+	.parallax-2{
+		width: 100%;
+	}
+
+	/*.parallax-2 {
+		background-image: url(../images/colors.jpg);
+		height: 400px;
+		width:100%;
+		padding-top:0;
+		margin-top: 0;
+		background-size: cover;
+		background-repeat:no-repeat;
+		position:relative;
+	}*/
+
+	.nav{
+		width: 100%;
+		margin-top:100px;
+		opacity:0.7;
+		display: inline;
+		color:white;
+
+	}
+
+
+	.gallery p{
+		font-size: 2em;
+	}
+	footer{
+		width:100%;
+		text-align: center;
+		height: auto;
+	}
+ }
+
+
+@media only screen (max-width: 38em){
+
+	h1{
+
+		margin-left:0;
+		text-align:left;
+		font-size: 1em;
+	}
+
+	/*.images{
+		width:100%;
+		height: auto;
+	}
+*/
+
+	p{
+		font-size: 1em;
+	}
+
+	.centered{
+	color: white ;
+	font-size: 1.7em;
+	text-align: left;
+	}
+
+	.para{
+		font-size: 1.7em;
+		text-align: left;
+	}
+
+	h2{
+		font-size: 2em;
+
+	}
+	.parallax{
+		width: 100%;
+		margin-top: 100px;
+		height: auto;
+
+	}
+ 
+
+	.nav{
+		width: 100%;
+		height: 70px;
+		margin-top:100px;
+		opacity:0.7;
+		display: inline;
+		color: white;
+	}
+
+	.parallax-2{
+		width:100%;
+		height: auto;
+	}
+
+	/*.parallax-2{
+		background-image: url(../images/colors.jpg);
+		height: 400px;
+		width:100%;
+		padding-top:0;
+		margin-top: 0;
+		background-size: cover;
+		background-repeat:no-repeat;
+		position:relative;
+	}*/
+
+	.gallery p{
+		font-size: 2em;
+	}
+	footer{
+		width:100%;
+
+	}
+
+	.parallax-3{
+		width:100%;
+	}
+	
+	.parallax-4{
+		width:100%;
+	}
+footer-content{
+	width:100%;
+	height: auto
+}
+
+} 
+@media only screen and (min-width: 48em){
+ 	
+    h1{
+		font-size: 2em;
+		margin-left:0px;
+		padding-left: 0em;
+		text-align: left;
+		
+	}
+
+	/*.images{
+		width:100%;
+		height: auto;
+	}
+*/
+
+	p{
+		font-size: 1.2em;
+	}
+
+	.centered{
+	color: white ;
+	font-size: 2em;
+	text-align: left;
+	}
+
+	.para{
+		font-size: 1.7em;
+		text-align: left;
+	}
+
+	h2{
+		font-size: 2.3em;
+
+	}
+	.parallax{
+		width: 100%;
+		margin-top: 50px;
+
+	}
+ 
+
+	.nav{
+		width: 100%;
+		height: 70px;
+		margin-top:100px;
+		opacity:0.7;
+		display: inline;
+		color: white;
+	}
+
+	.parallax-2{
+		width:100%;
+		height: auto;
+	}
+
+	.parallax-2{
+		background-image: url(../images/colors.jpg);
+		height: 400px;
+		width:100%;
+		padding-top:0;
+		margin-top: 0;
+		background-size: cover;
+		background-repeat:no-repeat;
+		position:relative;
+	}
+
+	.gallery p{
+		font-size: 2em;
+	}
+	footer{
+		width:100%;
+
+	}
+
+	.parallax-3{
+		width:100%;
+	}
+	
+	.parallax-4{
+		width:100%;
+	}
+	}
+
+
+@media only screen and (min-width: 60em){
+ 	.wrapper{
+ 		width: 90%;
+ 	}
+
+ 	/*.images{
+		width:100%;
+		height: auto;
+	}*/
+
+    h1{
+		font-size: 2em;
+		background-color: black;
+		color: white;
+		text-align: left;
+		margin-left:0px;
+		
+	}
+
+	p{
+		font-size: 1.4em;
+	}
+
+	.centered{
+	color: white ;
+	font-size: 2em;
+	text-align: left;
+	
+	}
+
+	.para{
+		font-size: 1.9em;
+		text-align: left;
+	}
+
+	h2{
+		font-size: 2.6em;
+
+	}
+	.parallax{
+		width: 100%;
+		margin-top: 50px;
+
+	}
+ 
+
+	.nav{
+		width: 100%;
+		height: 70px;
+		margin-top:50px;
+		opacity:0.7;
+		display: inline;
+	}
+
+	.parallax-2{
+		width:100%;
+		height: auto;
+	}
+
+	.parallax-2{
+		background-image: url(../images/colors.jpg);
+		height: 400px;
+		width:100%;
+		padding-top:0;
+		margin-top: 0;
+		background-size: cover;
+		background-repeat:no-repeat;
+		position:relative;
+	}
+
+	.gallery p{
+		font-size: 2em;
+	}
+
+	.parallax-3{
+		width:100%;
+	}
+	
+	.parallax-4{
+		width:100%;
+	}
+
+	footer{
+		width:100%;
+
+	}
+
+}
+
+@media only screen and (min-width: 72.5em){
+ 	.wrapper{
+ 		width: 72.5em;
+ 	}
+
+ 	/*.images{
+		width:100%;
+		height: auto;
+	}*/
+
+ 	
+	h1{
+		font-size: 2em;
+		color:white ;
+		text-align: left;
+		margin-left:0px;
+	}
+
+	p{
+		font-size: 1.1em;
+	}
+
+	
+	.nav{
+		width: 100%;
+		height: 70px;
+		margin-top:100px;
+		opacity:0.7;
+		display: inline;
+	}
+
+	.gallery{
+		margin-left:0px;
+
+	}
+
+	.gallery p{
+		font-size: 2em;
+	}
+	.parallax-2{
+		width:100%;
+		height: auto;
+	}
+
+	.parallax-2 {
+	background-image: url(../images/colors.jpg);
+	height: 400px;
+	width:100%;
+	padding-top:0;
+	margin-top: 0;
+	background-size: cover;
+	background-repeat:no-repeat;
+	position:relative;
+    }
+
+	.parallax-3{
+		width:100%;
+	}
+	
+	.parallax-4{
+		width:100%;
+		height: auto;
+		
+
+	}
+}
+
+
+
+
+
+
